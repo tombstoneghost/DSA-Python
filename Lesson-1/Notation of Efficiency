@@ -1,0 +1,40 @@
+Notation
+--------
+
+The Efficiency is defined by the Big O Notation which is defined as:
+    O(n)
+
+Here, n represents the length of input to the function. 
+
+Eg:
+
+    Code:
+        function decode(input):
+            create output_string
+            for each letter in input:
+                get new_letter from letters's location in cipher
+                add new_letter to output
+            return output
+        
+    Calculating Efficiency:
+        1. Creating and Returning will happen once : 2
+        2. For loop will run n times and performing 2 statements : 2n
+
+        Total Efficiency: O(2n + 2)
+
+        Now, the get line might perform a number of calculations. Assuming it to be 26
+
+        Total Efficiency: O(28n + 2)
+
+
+Approximation
+-------------
+
+We cannot calculate the exact efficiency therefore we make an approximation.
+
+Worst Case: This puts an upper bound 
+Best Case : This puts a lower bound
+
+
+
+Note: We can use the same notaitons for space efficiency as well. 

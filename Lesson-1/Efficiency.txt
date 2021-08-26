@@ -1,0 +1,12 @@
+Efficiency
+---------
+
+Efficiency or Complexity is how well we are using our computer resources to run a program. 
+
+It usually depends on two key points:
+    1. Time
+    2. Space
+
+Algorithms : Series of steps to perform a particular funciton
+
+

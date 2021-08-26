@@ -1,0 +1,78 @@
+Comments
+----------
+
+A Single Line Comment in Python Starts with # 
+A Multiple Line Comment is enclosed within triple quotes either """ or ''' 
+
+
+Declaration/Initialization
+--------------------------
+
+A variable can be reassigned to contain a different data type. 
+
+answer = 42
+answer = "Hello World!"
+
+
+Data Types
+----------
+
+1. Boolean
+2. Number
+3. String
+4. List
+5. Tuple
+6. Dictionary
+7. None
+
+
+Printing
+--------
+
+print("Hello World")
+
+
+Conditional
+-----------
+
+if condition_1:
+    Statements
+elif condition_2:
+    Statements
+else:
+    Statements
+
+
+Loops
+------
+
+--> For Loop
+
+    for element in list:
+        Statements
+
+--> While Loop
+
+    while condition:
+        Statements
+
+
+Functions
+---------
+
+def function_name(parameters):
+    Statements
+    
+    return value
+
+
+Classes
+-------
+
+class ClassName():
+    def __init__(self, parameters):
+        Constructor
+
+    --Functions--
+
+

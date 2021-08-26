@@ -1,0 +1,49 @@
+Lesson - 1: Introduction and Efficiency
+    - Course Introduction
+    - Syntax
+    - Efficiency
+    - Notation of Efficiency
+
+Lesson - 2: List-Based Collections
+    - Lists/Arrays
+    - Linked Lists
+    - Stacks
+    - Queues
+
+Lesson - 3: Searching and Sorting
+    - Binary Search
+    - Recursion
+    - Bubble Sort
+    - Merge Sort
+    - Quick Sort
+
+Lesson - 4: Maps and Hashing
+    - Maps
+    - Hashing
+    - Collisions
+    - Hashing Conventions
+
+Lesson - 5: Trees
+    - Trees
+    - Tree Traversal
+    - Binary Tree
+    - Binary Search Tree
+    - Heaps
+    - Self-Balancing Trees
+
+Lesson - 6: Graphs
+    - Graphs
+    - Graph Properties
+    - Graph Represtation
+    - Graph Traversal
+    - Graph Paths
+
+Lesson - 7: Case Studies in Algortihms
+    - Shortest Path Problem
+    - Knapsack Problem
+    - Traverling Salesman Problem
+
+Lesson - 8: Technical Interview Tips
+    - Mock Interview Breakdown
+    - Additional Tips
+    - Practice with Pramp
