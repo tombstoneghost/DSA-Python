@@ -1,0 +1,18 @@
+Stacks
+-------
+
+A Stack is like a stack of objects. We keep putting element at the top
+and we have easy access to keep putting or checking the element at top. 
+
+It works on LIFO Principle i.e. Last In First Out
+
+It is useful, when you want to use the recent element. 
+
+
+Stack Operations
+----------------
+
+To Add an element at Top: Push()
+To Remove an element at Top: Pop()
+
+Both of these work with the O(1) complexity. 

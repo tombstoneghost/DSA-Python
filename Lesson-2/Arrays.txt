@@ -1,0 +1,11 @@
+Arrays
+------
+
+An Array is the most common implementation of List. 
+An Array is a list with a few added rules. 
+
+In most of the languages, an array can contain data of same type and in 
+some it can contain data of different type. 
+
+Each Array contains an Index and it always start with 0 and it mostly has 
+a fixed size. 

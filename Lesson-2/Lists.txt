@@ -1,0 +1,6 @@
+Lists
+------
+
+A list contains a number of things with same or different data type. 
+The size of a list is not fixed. We can alter it anytime as per our 
+requirement. 

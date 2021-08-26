@@ -1,0 +1,23 @@
+Queues
+------
+
+A queue is opposite of the stack. It works on the FIFO Principle. 
+
+FIFO : First In First Out
+
+The first element is called the Head and the newest element is call Tail.
+
+
+Queue Operations
+-----------------
+
+Adding element at Tail: Enqueue
+Removing element at Head: Dequeue
+
+
+Types of Queues
+----------------
+
+1. Deq : A queue that works on both the sides
+2. Priority Queue: In this, we assign a priority to each element in the queue
+

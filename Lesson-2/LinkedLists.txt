@@ -1,0 +1,27 @@
+LinkedList
+----------
+
+A LinkedList is an extension of list but not an array. 
+
+Each Element in the LinkedList has the information about where the next
+element is. 
+
+Each LinkedList has two blocks:
+    1. Data
+    2. Information about next Node
+
+To Add an element: Just change the next reference and it will be done in O(1)
+Removing an Element is also similar. 
+
+
+Doubly LinkedList
+-----------------
+
+In a Doubly LinkedList, Each node contains the reference about its Next Node 
+as well as its previous node. 
+
+
+
+Note:
+You should always take care about the references. Missing/Bad Linking 
+any reference would lead to a broken LinkedList
