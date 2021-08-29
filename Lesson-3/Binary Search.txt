@@ -1,0 +1,29 @@
+Binary Search
+-------------
+
+Let's say you have a sort array and you want to search if a number is
+present in that array or not. If we keep checking each element the 
+complexity will be O(n)
+
+Since we have a sorted array we can use it in our algorithm. 
+
+Algorithm:
+1. First check if the number is in the middle or not. 
+    If yes, you are done. Else proceed further. 
+2. If the number is > than the middle one, then apply the 
+    same logic as Step-1 with the array to the right of middle
+
+   If the number is < than the middle one, then apply the 
+    same login as Step-1 with the array to the left of middle
+3. Repeat Step-2 till you find the number, else return None
+
+
+Efficiency
+----------
+
+If we notice it correctly, number of steps goes as:
+    2^(n + 1) where n is the number of iterations
+
+Therefore our efficiency is O(2^n + 1) and we can convert it into
+    O(log(n))
+

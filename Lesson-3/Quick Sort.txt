@@ -1,0 +1,44 @@
+Quick Sort
+----------
+
+In Quick Sort, we select a random number from the list and move all the
+elements greater than it to it's right and all the small elements to it's
+left. The random select number is called Pivot
+
+
+Example
+
+8 3 1 7 0 10 2
+Pivot =  2
+
+Since, 8 > 2
+10 3 1 7 0 2 8
+
+Since, 10 > 2
+0 3 1 7 2 10 8
+
+Since 3 > 2
+0 7 1 2 3 10 8
+
+Since 7 > 2
+0 1 2 7 3 10 8
+
+Now we perform the same with both the lists which are left and right to
+pivot element. 
+
+Left List = 0 1
+Right List = 7 3 10 8
+
+
+Efficiency
+----------
+
+Worst Cases:
+    1. When the Pivot is in the right place
+    2. All Numbers are Same
+
+    O(N)
+
+Average and Best Case:
+    O(N Log(N))
+

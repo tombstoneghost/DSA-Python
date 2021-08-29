@@ -1,0 +1,26 @@
+Recursion
+---------
+
+Recursion is a method in which a Function calls itself on a 
+particular condition. It also requires a base case which acts as a 
+exit else it will be keep running infinitely. 
+
+Example:
+    Code: 
+        function recursive(input):
+            if input <= 0:
+                return input
+            else:
+                output = recursive(input - 1)
+                return output
+
+    Working:
+        recursive(2)
+            recursive(1)
+                recursive(0)
+                    return 0
+            output = 0
+            return 0
+        output = 0
+        return 0
+

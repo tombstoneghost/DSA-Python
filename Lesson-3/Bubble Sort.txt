@@ -1,0 +1,26 @@
+Bubble Sort
+------------
+
+Bubble Sort is a Native Approach. We keep iterating through the list
+and compare all the adjacent elements and swap them if required. 
+
+
+Algorithm
+----------
+
+List = [N-Elements]
+
+FOR i in List:
+    FOR J in LIST - 1:
+        IF J > J + 1:
+            SWAP J and J + 1
+
+
+Efficiency
+-----------
+Since we are running each loop till (N - 1)
+
+Therefore, Total Running Iterations are:
+    (N - 1)(N - 1) = N^2 - 2N +2
+
+Hence, Efficiency is O(N^2)
