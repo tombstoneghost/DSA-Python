@@ -1,0 +1,15 @@
+Sets
+----
+
+A set is comparable to list but it does not allow ordering and only allows
+unique values. 
+
+
+Map
+---
+
+A Map is a set of Key Value structure. 
+
+Map = <Key, Value>
+
+All the keys in the Map are Set. 

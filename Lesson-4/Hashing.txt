@@ -1,0 +1,28 @@
+Hashing
+-------
+
+Hash Function: A Hash Function is used to convert the input value into 
+    a hash value. 
+
+A basic Hash Function is we divide the input with a number and store it. 
+We use a function which will return with an array index. So that we can
+access the input value in a constant time. 
+
+
+Collisions
+----------
+
+A Collisions occurs when a hash function returns the same value for two
+different input. Due to this, we can miss either of the input and it may
+result in giving us a false positive result. 
+
+A solution is to use dual hash functions. 
+
+
+Load Factor
+-----------
+
+The purpose of a load factor is to give us a sense that how full a hash
+table is. 
+
+Load Factor = Number of Entries / Number of Buckets

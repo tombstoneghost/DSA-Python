@@ -1,0 +1,15 @@
+Python Dictionaries
+-------------------
+
+The Map Concept in Python appears as a built-in data type called a 
+dictionary. it contains key value pairs. 
+
+We can declare a dictionary as follows:
+dictionary = {}
+
+To Add A Key:
+dictionary[KEY] = VALUE
+
+We can use the same way to access a pair:
+print(dictionary[KEY])
+

@@ -1,0 +1,21 @@
+HashMaps
+--------
+
+A HashMap is the combination of a Hash and A Map.
+
+
+Map<Key, Value> --> HashFunction(Value) --> HashValue<Key, Value>
+
+HashMaps are useful to integrate with the algorithms. 
+
+
+String Keys
+-----------
+
+The best part of this system is that we can use it with String Keys too. 
+We need to design a HashFunction which will convert the String Key into
+its respective ASCII value. 
+
+Since, the Hash Value of the String Keys could be very large therefore
+we can use another HashFunction to make it relatively smaller. 
+
