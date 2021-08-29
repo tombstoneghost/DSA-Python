@@ -1,0 +1,81 @@
+Graphs
+------
+
+A Graph is collection of Nodes which are connected to each other. 
+
+It is quite similar to a tree or rather Tree is a type of Graph. 
+
+In a graph, a cycle can exist. 
+
+In a graph, not only Nodes but also, the edges can also have weight. 
+
+
+Directions and Cycles
+---------------------
+
+In a Directed Graph, the edges define the Direction of relationship. 
+It can have either one direction or a cycle between two nodes. 
+
+In a Graph, A Cycle could lead to a Infinite Loop. 
+
+
+DAG or Directed Acyclic Graph: It is a directed graph with no cycles. 
+
+
+Connectivity
+------------
+
+Disconnected: A Disconnected Graph is a graph which have a node which 
+    is not connected to the rest of the graph. 
+
+
+Weakly Connected: A directed graph is weakly connected when only replacing 
+    all of the directed edges with undirected edges can cause it to be 
+    connected. Imagine that your graph has several vertices with one outbound 
+    edge, meaning an edge that points from it to some other vertex in the 
+    graph. There's no way to reach all of those vertices from any other vertex 
+    in the graph, but if those edges were changed to be undirected all vertices 
+    would be easily accessible.
+
+
+Connected: Here we only use "connected graph" to refer to undirected graphs. 
+    In a connected graph, there is some path between one vertex and every other 
+    vertex.
+
+
+Strongly Connected: Strongly connected directed graphs must have a path from every 
+    node and every other node. So, there must be a path from A to B AND B to A.
+
+
+Graph Representation
+--------------------
+
+Graphs are represented using vertices and edges. 
+
+Other method can be a Edge List which contains the list of all connections.
+Eg: [[0, 1], [1, 2], [1, 3], [2, 3]]
+
+
+A Graph can also be represented as an Adjacency Matrix of N X N size where N is
+the number of nodes. If [I, J] is not zero, means there is a connection. 
+
+If the diagonal is having a value, it means that a Edge is having the same 
+start and end position. 
+
+
+Graph Traversal
+---------------
+
+DFS in Graph is similar to the DFS in a Tree. 
+We commonly use a Stack. 
+
+We Start with a Node and push it to the stack. Now, we move to all the 
+edges from it, if there is no edge we pop that Node and visit the edges 
+from it's previous node. 
+
+This results in Complexity of O(E + V)
+
+
+BFS in Graph is again Similar.
+In this, we use a Queue and the complete procedure is same. 
+Therefore, the Efficiency is again same, i.e. O(E + V)

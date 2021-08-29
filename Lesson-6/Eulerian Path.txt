@@ -1,0 +1,15 @@
+Eulerian Path
+--------------
+
+A Eulerian Path is a Path which traverses through all the edges only once. 
+
+A Eulerian Cycle is the one which contains a cycle in which all the edges
+are travelled once. 
+
+They can only exist if the Graph has Odd Degree. 
+
+
+Hamiltonian Path
+----------------
+
+It is same has a Eulerian Path.
