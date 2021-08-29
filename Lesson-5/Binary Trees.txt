@@ -1,0 +1,44 @@
+Binary Trees
+------------
+
+A Binary Tree is a Tree with each node having 2 children at max.
+
+We have the following Tree:
+
+            D
+           / \
+          /   \
+         B     E
+        / \     \
+       /   \     \
+      A     C     F
+
+
+Perfect Tree: Every Node expect the one at last level have 2 children. 
+
+
+Binary Search Tree
+------------------
+
+A Binary Search Tree is a tree which follows the following condition:
+    Left.Value < Root.Value < Right.Value
+
+Complexity: O(Log(N))
+
+BST Complication:
+
+            5
+             \
+              \
+               10
+                \
+                 \
+                  15
+                   \
+                    \
+                     25
+
+Such a binary tree is called an unbalanced binary tree and operations work
+in linear time. Hence worst case complexity is O(N) but the average case
+complexity is O(Log(N))
+

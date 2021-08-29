@@ -1,0 +1,65 @@
+Trees
+-----
+
+Trees are the data structure which starts with a root node and has branches
+which are further connected to subtrees or leaves. 
+
+A Tree is just an extension of a LinkedList. It can contain a number of
+branches and each node on a tree should contain some value. 
+
+A Tree should be:
+1. Ending at some end node called leave
+2. There should be no cycles. 
+
+
+Terminology
+-----------
+
+Root : The First Element of the Tree
+Node : It is a parent-child relationship
+Level : The number of connections it take to reach root
+Leaf : The node at the end of the tree. 
+Height : The number of connections between a node and it's ancestor.
+
+
+Tree Traversal
+--------------
+
+We have the following Tree:
+
+            D
+           / \
+          /   \
+         B     E
+        / \     \
+       /   \     \
+      A     C     F
+
+
+There are a 2 Broad ways to Traverse a Tree:
+1. DFS - Visit all the nodes and keep digging till you visit the end
+2. BFS - Level Order - Visit all the nodes on the same level
+
+The BFS of the above tree is:  D B E A C F
+
+There are 3 ways for DFS Traversal:
+1. Pre-Order    : Root Left Right   :   D B A C E F
+2. Post-Order   : Left Right Root   :   A C B F E D
+3. In-Order     : Left Root Right   :   A B C D E F
+
+
+
+Tree - 1:
+
+            A
+           / \
+          /   \
+         B     C
+        / \
+       /   \
+      D     E
+             \
+              \
+               F
+
+Post-Order  :   D F E B C A

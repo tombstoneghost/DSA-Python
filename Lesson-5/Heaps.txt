@@ -1,0 +1,72 @@
+Heaps
+------
+
+A Heap is a specific type of tree with it's own additional rules. 
+A Heap is arranged in increasing or decreasing order such that the 
+root element is the maximum or minimum value of the tree. 
+
+Max Heap: Parent.Value > Child.Value
+Min Heap: Parent.Value < Child.Value
+
+Peek is done in O(1)
+Search Worst Case is O(n)
+
+
+Heapify
+-------
+
+It is the operation in which we re-order the tree based on the rules of
+a heap. 
+
+Worst Case: O(Log(N))
+
+
+Implementation
+--------------
+
+Heaps are stored in an Array. 
+
+19 17 13 11 7 5 3 2 1
+
+Root -> 19
+
+            19
+
+Now, next will be 17 and 13
+
+            19
+           /  \
+          /    \
+         /      \
+        17      13
+
+Now, we'll add 11 7 5 3 
+
+            19
+           /  \
+          /    \
+         /      \
+        17      13
+       / \      /\
+      /   \    /  \
+     /     \  /    \
+    11     7  5     3
+
+At last we have: 2 1
+
+            19  
+           /  \
+          /    \
+         /      \
+        17      13
+       / \      /\
+      /   \    /  \
+     /     \  /    \
+    11     7  5     3
+   / \
+  /   \
+ /     \
+2       1
+
+Note: Not Every Array can be represented as a Heap until it is sorted. 
+

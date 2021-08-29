@@ -1,0 +1,51 @@
+Self-Balancing Trees
+--------------------
+
+It is the one which minimize the number of level it uses. It has some
+insertion and deletion properties which helps it to stay balanced. 
+
+A common example of this type of Tree is Red Black Tree. 
+
+
+Red Black Tree
+---------------
+
+A Red Black Tree has the following Rules:
+1. Nodes are assigned as Black and the End Nodes are always Red
+2. Each Node which does not have 2 leaves should have 2 Null leaves
+3. If a node is red, then both of it's children should be black.
+4. The root node must be black
+5. Every Path from a root to it's descendent must have same number of 
+    black nodes. 
+
+
+Inserting a Node:
+
+> Insert Red Nodes only. 
+> If the parent and it's sibling are both red, then both should be turned 
+    Black
+
+
+Tree Rotation
+--------------
+
+Left Rotation
+
+        19                19
+       /                 /
+      /                 /
+     13         -->    16       -->      16
+       \              /                 /  \
+        \            /                 /    \
+         16         13                13    19
+
+
+Right Rotation
+
+19             19
+  \              \        
+   \              \       
+    13     -->    16       -->         16
+   /                \                 /  \
+  /                  \               /    \
+16                   13             19    13
