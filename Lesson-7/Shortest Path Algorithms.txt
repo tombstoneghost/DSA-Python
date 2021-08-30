@@ -1,0 +1,8 @@
+Shortest Path Problem
+---------------------
+
+The Shortest Path Problem is all about finding the shortest path between two nodes. 
+
+If we have a weighted graph, then it depends on the weight of each edge. 
+If we have an unweighted graph, then it will be the one with least number of edges. 
+

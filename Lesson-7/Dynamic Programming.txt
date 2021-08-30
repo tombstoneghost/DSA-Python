@@ -1,0 +1,8 @@
+Dynamic Programming
+--------------------
+
+In this, we divide the problem into smaller problems and then
+use it's solution to solve the bigger problem by saving the solution
+to a Look Up table and keep updating and checking it. 
+
+This concept is called the Memoized Computations. 

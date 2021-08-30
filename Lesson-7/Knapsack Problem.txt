@@ -1,0 +1,19 @@
+Knapsack Problem
+-----------------
+
+In this we have a theoretical Knapsack and a number of elements with their 
+respective weights and values. 
+
+We have 0-1 Knapsack in which we can either use the complete object or not. 
+
+In this, we can try all the combinations available and then choose the best. 
+It is called a Brute Force Solution but it gives an efficiency of O(2^N)
+
+
+Faster Approach
+----------------
+
+We choose the Max Value for Minimum Weight
+
+And using this we get the efficiency of O(N X W)
+

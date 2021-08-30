@@ -1,0 +1,15 @@
+Dijkstra's Algorithm
+---------------------
+
+We start by giving each vertices the distance value. It is the sum of edge weights from the starting point
+to the point we are on. 
+
+This is done using the minimum priority queue. 
+
+Our Starting node will be 0 and rest all will be infinity initially. 
+Then we keep updating it as we move from one node to another. 
+Therefore, it comes under the Greedy Algorithm Category. 
+
+Efficiency: O(V^2)
+
+To optimize it, we can use a Priority Queue and it will give us the efficiency of O(E + V Log(V))

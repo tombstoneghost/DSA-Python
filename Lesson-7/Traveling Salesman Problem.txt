@@ -1,0 +1,17 @@
+Traveling Salesman Problem
+---------------------------
+
+In this, we need to finding a route in which we can cover all
+the given nodes in the shortest possible time. It is a representation
+of a Salesman who needs to sell his things in a number of cities, 
+hence called as the Traveling Salesman Problem.
+
+This algorithm comes under a category of NP-Hard
+
+We can either solve it by using the Exact Answer or by
+performing a Brute Force. 
+
+But, it can also be solved using Dynamic Programming as well. 
+
+It is considered to be one of the hardest problem in the field 
+of computer science.
